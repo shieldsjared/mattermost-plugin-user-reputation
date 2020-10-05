@@ -12,11 +12,11 @@ var manifest *model.Manifest
 
 const manifestStr = `
 {
-  "id": "com.mattermost.plugin-starter-template",
-  "name": "Plugin Starter Template",
-  "description": "This plugin serves as a starting point for writing a Mattermost plugin.",
+  "id": "shieldsjared.mattermost-plugin-user-reputation",
+  "name": "User Reputation",
+  "description": "This plugin tracks user-reputation, based on reactions earned for posts.",
   "version": "0.1.0",
-  "min_server_version": "5.12.0",
+  "min_server_version": "5.29.0",
   "server": {
     "executables": {
       "linux-amd64": "server/dist/plugin-linux-amd64",
